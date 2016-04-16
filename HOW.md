@@ -20,3 +20,5 @@ I think that the tests need to be run from a test probe - that way we dont mess 
 
 But it would be nice to be able to use wireshark on interfaces - but without fucking up the host networking - maybe its something for when we have things more automated.
 
+To configure the networking on the hosts I want to use guestcontrol copyto - but it seems that has been [broken for 9 months and Oracle made a fix yesterday](https://www.virtualbox.org/ticket/14336) - so I'll either have to do it another way or wait for the next release (probably in about 3 weeks according to their release frequency).
+
