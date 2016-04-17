@@ -2,7 +2,9 @@
 
 ## Set up base vm
 - create a base vm - I used ubuntu server - but I'd be tempted to use something smaller and quicker
-- install virtualbox guest additions - its needed for guest control
+- enable the root user
+- install dkms & virtualbox guest additions - its needed for guest control
+- set eth0 as 'allow-hotplug' so that the test vms wont wait for DHCP to start up for initial configuration
 
 ## Create the test setup
 - create layered clones for each of the test machines
