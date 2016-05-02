@@ -12,3 +12,7 @@ These are to be networking administration examples and so will skip most things 
 
 The most basic form of network routing is a node that sits on 2 networks and acts as a gateway between them. In the example we create and configure a gateway node and test that packets are routed by it between those 2 networks.
 
+# Requirements
+
+- VirtualBox 5.0.20+
+
